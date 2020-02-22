@@ -1,0 +1,57 @@
+baseURL = "http://example.org/"
+languageCode = "zh-tw"
+title = "5X"
+theme = "hugo-notepadium"
+hasCJKLanguage = true
+
+enableRobotsTXT = true
+
+# Enable Disqus
+disqusShortname = "5xx"
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[markup.highlight]
+codeFences = true
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
+
+[params]
+style = "dark"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
+logo = ""  # if you have a logo png
+slogan = "當工程師一點也不累"
+license = ""  # CC License
+
+[params.comments]
+enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
+
+[params.math]
+enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
+use = "katex"  # option: "katex", "mathjax". default: "katex"
+
+[params.syntax]
+use = "prismjs"  # builtin: "prismjs", "hljs". "none" means Chroma
+theme = "dracula"
+darkTheme = "material-oceanic"  # apply this theme in dark mode
+
+[params.nav]
+showCategories = true       # /categories/
+showTags = true             # /tags/
+
+# custom navigation items
+
+[[params.nav.custom]]
+icon = "fab fa-linkedin fa-lg"
+url = "https://www.linkedin.com/in/wuxianzhang/"
+
+[[params.nav.custom]]
+icon = "fab fa-github-square fa-lg"
+url = "https://github.com/jack482653"
+
+[params.assets]
+css = ["css/custom.scss"]  # *.css/scss/sass
+js = ["js/fontawesone.js"]
