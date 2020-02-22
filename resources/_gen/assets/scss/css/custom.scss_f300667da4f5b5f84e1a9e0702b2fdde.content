@@ -1,5 +1,6 @@
 body {
   background-color: #212121;
+  color: white;
   font-family: 'Open Sans', sans-serif; }
 
 a {
@@ -12,8 +13,11 @@ a {
     padding: 10px 10px; }
 
 .note.list .item {
+  background-color: transparent;
+  box-shadow: none;
   border-bottom: none;
-  margin: 0 0 25px 0; }
+  margin: 0 0 25px 0;
+  padding: 0; }
   .note.list .item a.note {
     border-radius: 10px;
     padding: 10px 15px 10px 15px; }
@@ -21,6 +25,7 @@ a {
       background-color: #171717; }
 
 .note.title {
+  color: white;
   font-size: 2.125rem;
   font-weight: 400;
   line-height: 1.235;
@@ -35,6 +40,7 @@ a {
   margin: 0 0 20px 0; }
 
 .note.content {
+  color: rgba(255, 255, 255, 0.85);
   font-size: 1.2rem;
   line-height: 1.58; }
 
@@ -48,24 +54,32 @@ a {
   border-radius: 16px;
   color: #3e1923;
   background-color: #ff6691;
-  padding: 6px 9px; }
+  padding: 6px 9px;
+  border: none; }
 
 .category {
   border-radius: 16px;
   color: #413e20;
   background-color: #fff37a;
-  padding: 6px 9px; }
+  padding: 6px 9px;
+  border: none; }
 
 .article.header {
-  margin-bottom: 4rem; }
+  margin-bottom: 3rem; }
   .article.header .title {
     font-size: 3rem;
     font-weight: 600; }
+  .article.header h1 {
+    font-size: 3rem; }
   .article.header .date {
     margin-top: 5px; }
 
 .article.markdown-body {
-  font-size: 1.2rem; }
+  font-size: 1.1rem;
+  background-color: transparent;
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 0; }
   .article.markdown-body p {
     line-height: 1.58; }
   .article.markdown-body h1 {
@@ -82,3 +96,5 @@ a {
     margin-bottom: .5rem;
     font-weight: 600;
     line-height: 1.2; }
+  .article.markdown-body pre {
+    font-size: 0.9rem; }
