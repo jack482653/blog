@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://5x.netlify.com/"
 languageCode = "zh-tw"
 title = "5X"
 theme = "hugo-notepadium"
