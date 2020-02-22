@@ -2,7 +2,7 @@
 title: "React 2019 Late: 建置專案利器 create-react-app"
 date: 2020-02-01T15:09:32+08:00
 categories: ["Coding"]
-tags: ["React", "Redux", "JavaScript"]
+tags: ["React", "JavaScript"]
 draft: false
 ---
 
