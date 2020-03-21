@@ -65,7 +65,8 @@ a {
   border: none; }
 
 .article.header {
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  text-align: left; }
   .article.header .title {
     font-size: 3rem;
     font-weight: 600; }
@@ -80,6 +81,10 @@ a {
   box-shadow: none;
   color: rgba(255, 255, 255, 0.85);
   padding: 0; }
+  @media (max-width: 500px) {
+    .article.markdown-body {
+      margin-left: 0;
+      margin-right: 0; } }
   .article.markdown-body p {
     line-height: 1.58; }
   .article.markdown-body h1 {
