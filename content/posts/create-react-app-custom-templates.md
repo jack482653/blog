@@ -6,7 +6,7 @@ tags: ["React", "JavaScript"]
 draft: false
 ---
 
-之前提到 create-react-app 可以幫助開發者快速產生一個 React 專案，而 Custom Templates 功能可以根據樣板讓新的專案長出你希望的架構和安專好相依性的套件。雖然不是常常有機會開發新專案，但是如果能馬上產生立即可以開發的專案，花點時間寫 template 是很有幫助的。
+之前提到 create-react-app 可以幫助開發者快速產生一個 React 專案，而 Custom Templates 功能可以根據樣板讓新的專案長出你希望的架構，同時安裝好你指定的相依性套件。雖然不是常常有機會開發新專案，但是如果能馬上產生立即可以開發的專案，花點時間寫 template 是很有幫助的。
 
 # Get Start!
 
